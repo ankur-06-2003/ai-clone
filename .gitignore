@@ -1,0 +1,152 @@
+# -------------------------------
+# 🧠 AI Avatar Chat Project
+# FastAPI + React + MongoDB + Whisper + Gemini + Quick-TTS
+# -------------------------------
+
+# ===============================
+# 🔐 ENVIRONMENT & SECRETS
+# ===============================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.token
+secrets.json
+config.yaml
+
+# ===============================
+# 🐍 PYTHON (FASTAPI BACKEND)
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.spec
+*.log
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+venv/
+venv*/
+ENV/
+env/
+.envrc
+.cache/
+.ipynb_checkpoints/
+.DS_Store
+*.sqlite3
+
+# Whisper / LipSync cache or checkpoints
+*.pth
+*.pt
+cache/
+wav2lip_cache/
+model_cache/
+*.mp3
+*.wav
+*.mp4
+
+# ===============================
+# ⚙️ FASTAPI / UVICORN / STATIC FILES
+# ===============================
+static/*.wav
+static/*.mp3
+static/*.mp4
+static/*.jpg
+static/*.png
+static/images/*
+!static/.gitkeep  # Keep empty static folder
+
+# ===============================
+# 🧩 NODE / REACT FRONTEND
+# ===============================
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+# ===============================
+# 🧪 TESTS & COVERAGE
+# ===============================
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+nosetests.xml
+pytestdebug.log
+
+# ===============================
+# 💾 DATABASE / MONGODB BACKUP
+# ===============================
+*.bson
+*.json
+dump/
+data/
+mongodb_dump/
+*.db
+
+# ===============================
+# 🖼️ MEDIA FILES
+# ===============================
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webm
+*.avi
+*.mov
+*.mpg
+*.mpeg
+
+# ===============================
+# 🧰 IDE / EDITOR SETTINGS
+# ===============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# ===============================
+# 🧱 OS-SPECIFIC FILES
+# ===============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# 🔊 AUDIO/VIDEO OUTPUT FILES
+# ===============================
+*.wav
+*.mp3
+*.mp4
+output/
+tts_output/
+videos/
+audios/
+
+# ===============================
+# 📦 PACKAGE LOCKS (optional)
+# Uncomment below if you prefer not to commit lock files
+# ===============================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

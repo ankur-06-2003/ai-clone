@@ -1,0 +1,14 @@
+fastapi[standard]
+pydantic
+pymongo
+bson
+python-multipart
+openai-whisper
+pyttsx3
+ollama
+lipsync
+pydantic-settings
+pydub
+ffmpeg-python
+opencv-python
+torch
